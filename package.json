@@ -1,23 +1,15 @@
 {
-  "name": "wm-bustamante---the-real-estate-gallery",
+  "name": "wm-bustamante-real-estate-gallery",
+  "version": "1.0.0",
+  "description": "Exclusive luxury real estate portfolio for investors",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
+    "framer-motion": "^12.23.24",
     "lucide-react": "^0.555.0",
-    "framer-motion": "^12.23.24"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
-  "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
